@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PutridParrot.Har", "PutridParrot.Har\PutridParrot.Har.csproj", "{82F40425-CBEB-456B-A4B0-ABC943E9DD9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PutridParrot.Har.Tests", "PutridParrot.Har.Tests\PutridParrot.Har.Tests.csproj", "{AAC36C01-7A87-4518-994F-77F714DEE972}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82F40425-CBEB-456B-A4B0-ABC943E9DD9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82F40425-CBEB-456B-A4B0-ABC943E9DD9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82F40425-CBEB-456B-A4B0-ABC943E9DD9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82F40425-CBEB-456B-A4B0-ABC943E9DD9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAC36C01-7A87-4518-994F-77F714DEE972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC36C01-7A87-4518-994F-77F714DEE972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC36C01-7A87-4518-994F-77F714DEE972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC36C01-7A87-4518-994F-77F714DEE972}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1ACF2161-0FA7-4C0F-B394-B60E661EF576}
+	EndGlobalSection
+EndGlobal
