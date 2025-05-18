@@ -11,11 +11,13 @@ public sealed class Cookie
     /// Name of the cookie.
     /// </summary>
     [JsonPropertyName("name")]
+    //[JsonRequired]
     public string? Name { get; set; }
     /// <summary>
     /// Value of the cookie.
     /// </summary>
     [JsonPropertyName("value")]
+    //[JsonRequired]
     public string? Value { get; set; }
     /// <summary>
     /// Cookie path.

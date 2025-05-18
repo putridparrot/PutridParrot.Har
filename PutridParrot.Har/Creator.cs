@@ -11,11 +11,13 @@ public sealed class Creator
     /// Name of the creator tool.
     /// </summary>
     [JsonPropertyName("name")]
+    //[JsonRequired]
     public string? Name { get; set; }
     /// <summary>
     /// Version of the creator tool.   
     /// </summary>
     [JsonPropertyName("version")]
+    //[JsonRequired]
     public string? Version { get; set; }
     /// <summary>
     /// Comment provided by the user or application.

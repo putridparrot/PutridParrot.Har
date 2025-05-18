@@ -23,4 +23,8 @@
     <ItemGroup>
       <ProjectReference Include="..\PutridParrot.Har\PutridParrot.Har.csproj" />
     </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Samples\" />
+    </ItemGroup>
 </Project>

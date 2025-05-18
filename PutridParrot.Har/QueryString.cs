@@ -11,11 +11,13 @@ public sealed class QueryString
     /// Query string parameter name.
     /// </summary>
     [JsonPropertyName("name")]
+    //[JsonRequired]
     public string? Name { get; set; }
     /// <summary>
     /// Query string parameter value.
     /// </summary>
     [JsonPropertyName("value")]
+    //[JsonRequired]
     public string? Value { get; set; }
     /// <summary>
     /// Comment provided by the user or application.

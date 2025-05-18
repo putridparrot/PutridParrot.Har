@@ -11,11 +11,13 @@ public sealed class Browser
     /// Name of the browser.   
     /// </summary>
     [JsonPropertyName("name")]
+    //[JsonRequired]
     public string? Name { get; set; }
     /// <summary>
     ///  Browser version.  
     /// </summary>
     [JsonPropertyName("version")]
+    //[JsonRequired]
     public string? Version { get; set; }
     /// <summary>
     /// Comment provided by the user or application.

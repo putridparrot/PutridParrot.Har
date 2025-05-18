@@ -16,16 +16,19 @@ public sealed class Page
     /// Unique identifier of the page within the log.
     /// </summary> 
     [JsonPropertyName("id")]
+    //[JsonRequired]
     public string? Id { get; set; }
     /// <summary>
     /// Page title.
     /// </summary>
     [JsonPropertyName("title")]
+    //[JsonRequired]
     public string? Title { get; set; }
     /// <summary>
     /// Timing information for the page.
     /// </summary>
     [JsonPropertyName("pageTimings")]
+    //[JsonRequired]
     public PageTiming? PageTimings { get; set; }
     /// <summary>
     /// Comment provided by the user or application.

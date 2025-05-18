@@ -11,12 +11,13 @@ public sealed class PageTiming
     /// Number of milliseconds it took to load the page. 
     /// </summary>
     [JsonPropertyName("onContentLoad")]
-    public double? OnContentLoad { get; set; }
+    public double? OnContentLoad { get; set; } = -1;
+
     /// <summary>
     /// Number of milliseconds it took to load the page. 
     /// </summary>
     [JsonPropertyName("onLoad")]
-    public double? OnLoad { get; set; }
+    public double? OnLoad { get; set; } = -1;
     /// <summary>
     /// Comment provided by the user or application.
     /// </summary> 

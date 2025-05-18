@@ -11,11 +11,13 @@ public sealed class Log
     /// Format version of the HAR data.
     /// </summary>
     [JsonPropertyName("version")]
-    public string? Version { get; set; }
+    //[JsonRequired]
+    public string? Version { get; set; } = "1.2";
     /// <summary>
     /// Name and version of the creator tool.
     /// </summary>
     [JsonPropertyName("creator")]
+    //[JsonRequired]
     public Creator? Creator { get; set; }
     /// <summary>
     /// Name and version of the browser.
@@ -31,6 +33,7 @@ public sealed class Log
     /// Collection of requests.
     /// </summary>
     [JsonPropertyName("entries")]
+    //[JsonRequired]
     public Entry[]? Entries { get; set; }
     /// <summary>
     /// Optional comment provided by the user.

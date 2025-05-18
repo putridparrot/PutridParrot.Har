@@ -11,6 +11,7 @@ public sealed class Content
     /// Length of the returned content in bytes.
     /// </summary>
     [JsonPropertyName("size")]
+    //[JsonRequired]
     public int? Size { get; set; }
     /// <summary>
     /// Number of bytes saved by compression.
@@ -21,6 +22,7 @@ public sealed class Content
     /// MIME type of returned content.
     /// </summary>
     [JsonPropertyName("mimeType")]
+    //[JsonRequired]
     public string? MimeType { get; set; }
     /// <summary>
     /// Response body sent from the server or loaded from the browser cache.

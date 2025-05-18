@@ -16,16 +16,20 @@ public sealed class Entry
     /// Date and time of the request start.
     /// </summary>
     [JsonPropertyName("startedDateTime")]
+    //[JsonRequired]
     public DateTime? StartedDateTime { get; set; }
+
     /// <summary>
     ///  Number of milliseconds elapsed of the request.
     /// </summary>
     [JsonPropertyName("time")]
-    public double? Time { get; set; }
+    //[JsonRequired]
+    public double? Time { get; set; } = 0;
     /// <summary>
     /// Information about the cache usage.
     /// </summary>
     [JsonPropertyName("cache")]
+    //[JsonRequired]
     public Cache? Cache { get; set; }
     /// <summary>
     /// Unique Id of the parent TCP/IP connection, can be the client port number.
@@ -36,11 +40,13 @@ public sealed class Entry
     /// Information about the request.
     /// </summary>
     [JsonPropertyName("request")]
+    //[JsonRequired]
     public Request? Request { get; set; }
     /// <summary>
     /// Information about the response.
     /// </summary>   
     [JsonPropertyName("response")]
+    //[JsonRequired]
     public Response? Response { get; set; }
     /// <summary>
     /// The IP address of the server that handled the request.
@@ -51,6 +57,7 @@ public sealed class Entry
     /// Timing information for the request/response round trip.
     /// </summary>
     [JsonPropertyName("timings")]
+    //[JsonRequired]
     public Timings? Timings { get; set; }
     /// <summary>
     /// Comment provided by the user or application.

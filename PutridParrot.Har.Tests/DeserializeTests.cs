@@ -10,6 +10,14 @@ public class DeserializeTests
     public void Test1()
     {
         // var harClient = new HarClient();
-        // var har = harClient.Deserialize(File.ReadAllText(Path.Combine(SampleFolder, "test1.har")));
+        // var har = harClient.Deserialize(File.ReadAllText(Path.Combine(SampleFolder, "firefox.har")));
+        //
+        // var i = har.Log.Entries.FirstOrDefault(l => l.Timings.Send is null);
+    }
+
+    [Test]
+    public void Test2()
+    {
+        
     }
 }
