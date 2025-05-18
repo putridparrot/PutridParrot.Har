@@ -4,6 +4,24 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Version>1.0.0-alpha</Version>
+    <Authors>Mark Timmings</Authors>
+    <Product>PutridParrot</Product>
+    <Description>HAR models</Description>
+	  <PackageIcon>PutridParrot.Har.png</PackageIcon>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <RepositoryUrl>https://github.com/putridparrot/PutridParrot.Har.git</RepositoryUrl>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
+  <ItemGroup>
+	  <None Include="..\PutridParrot.Har.png">
+		  <Pack>True</Pack>
+		  <PackagePath>\</PackagePath>
+	  </None>
+	  <None Include="..\README.md">
+		  <Pack>True</Pack>
+		  <PackagePath>\</PackagePath>
+	  </None>
+  </ItemGroup>
 </Project>
