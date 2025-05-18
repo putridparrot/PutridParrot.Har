@@ -13,5 +13,5 @@ Models and a simple client for HAR (HTTP Archive) formatted data.
 
 My thanks goes to the following resources, detailing for HAR specification
 
-[HAR 1.2 Spec](http://www.softwareishard.com/blog/har-12-spec/)
-[HTTP Archive (HAR) v1.2](https://github.com/ahmadnassri/har-spec/blob/master/versions/1.2.md)
+* [HAR 1.2 Spec](http://www.softwareishard.com/blog/har-12-spec/)
+* [HTTP Archive (HAR) v1.2](https://github.com/ahmadnassri/har-spec/blob/master/versions/1.2.md)
